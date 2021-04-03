@@ -14,7 +14,7 @@
 
 .sqs-async-form-content .field-error {
     border-radius: 2px;
-    background: #cc3b3b url('../images-v6/standard/icon_close_7_light.png') no-repeat 9px 50%;
+    background: #cc3b3b url('./images-v6/standard/icon_close_7_light.png') no-repeat 9px 50%;
     color: #fff;
     display: inline-block;
     font-size: 13px;
@@ -435,12 +435,12 @@
 }
 
 .sqs-pill-shopping-cart-content.dark .icon {
-    background: transparent url('../images-v6/damask/cart-16-light.png') center center no-repeat
+    background: transparent url('./images-v6/damask/cart-16-light.png') center center no-repeat
 }
 
 @media (-webkit-min-device-pixel-ratio:2), (-webkit-min-device-pixel-ratio:1.5), (min-resolution:1.5dppx) {
     .sqs-pill-shopping-cart-content.dark .icon {
-        background-image: url('../images-v6/damask/cart-32-light.png');
+        background-image: url('./images-v6/damask/cart-32-light.png');
         background-size: 16px
     }
 }
@@ -458,7 +458,7 @@
 }
 
 .sqs-pill-shopping-cart-content.light .icon {
-    background: url(../images-v6/icons/icon-cart-18-dark.png)
+    background: url(./images-v6/icons/icon-cart-18-dark.png)
 }
 
 .sqs-pill-shopping-cart-content.light:hover {
